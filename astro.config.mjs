@@ -29,8 +29,7 @@ function customRehypeLazyLoadImage() {
 }
 
 export default defineConfig({
-  site: 'https://microhawk.github.io',
-  base: '/ericluo-blog',
+  site: 'https://microhawk.github.io/ericluo-blog',
   integrations: [sitemap(), tailwind(), solid(), expressiveCode({
     plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
     themes: ["github-dark", "github-light"],
