@@ -1,9 +1,11 @@
 ---
+title: 第一条博客
 date: 2024-03-24
-title: New features
 description: More new features specific to this theme.
-mermaid: true
+category: astro
+tags: [astro]
 mathjax: true
+mermaid: true
 ---
 
 ### Support collapse

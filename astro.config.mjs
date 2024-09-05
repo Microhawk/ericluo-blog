@@ -29,7 +29,7 @@ function customRehypeLazyLoadImage() {
 }
 
 export default defineConfig({
-  site: 'https://astro-yi-nu.vercel.app',
+  site: 'https://microhawk.github.io',
   integrations: [sitemap(), tailwind(), solid(), expressiveCode({
     plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
     themes: ["github-dark", "github-light"],
@@ -42,5 +42,8 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkModifiedTime, resetRemark, remarkDirective, remarkAsides({}),remarkCollapse({})],
     rehypePlugins: [customRehypeLazyLoadImage],
+  },
+  image: {
+    domains: ["img-blog.csdnimg.cn", "cdn.nlark.com"]
   }
 });
