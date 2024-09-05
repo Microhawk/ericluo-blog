@@ -16,12 +16,12 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: "Eric Luo's Blog", // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
+  author: "Eric Luo", // required
   avatar: '/avatar.png', // required
-  motto: 'Actions speak louder than words.',
+  motto: '悟已往之不谏，知来者之可追',
   url: '',
   recentBlogSize: 5,
   archivePageSize: 25,
@@ -38,7 +38,7 @@ export const site = {
  */
 export const config = {
   busuanzi: false,
-  lang: 'en', // en | zh-cn | cs
+  lang: 'zh-cn', // en | zh-cn | cs
   codeFoldingStartLines: 16, // Need to re-run the project to take effect
   ga: false // If you want to integrate with Google Analytics, just enter your GA-ID here.
 }
@@ -57,42 +57,14 @@ export const categories = [
     href: "/blog/1",
   },
   {
-    name: "Feed",
-    iconClass: "ri-lightbulb-flash-line",
-    href: "/feed/1",
-  },
-  {
-    name: "Archive",
-    iconClass: "ri-archive-line",
-    href: "/archive/1",
-  },
-  {
-    name: "Message",
-    iconClass: "ri-chat-1-line",
-    href: "/message",
-  },
-  {
     name: "Search",
     iconClass: "ri-search-line",
     href: "/search",
   },
   {
-    name: "More",
-    iconClass: "ri-more-fill",
-    href: "javascript:void(0);",
-    children: [
-      {
-        name: 'About',
-        iconClass: 'ri-information-line',
-        href: '/about',
-      },
-      {
-        name: 'Friends',
-        iconClass: 'ri-user-5-line',
-        href: '/friends',
-        target: '_self',
-      },
-    ]
+    name: 'About Me',
+    iconClass: 'ri-information-line',
+    href: '/about',
   }
 ]
 
@@ -101,29 +73,14 @@ export const categories = [
  */
 export const infoLinks = [
   {
-    icon: 'ri-telegram-fill',
-    name: 'telegram',
-    outlink: 'xxxxxxx',
-  },
-  {
-    icon: 'ri-twitter-fill',
-    name: 'twitter',
-    outlink: 'xxxxxxx',
-  },
-  {
-    icon: 'ri-instagram-fill',
-    name: 'instagram',
-    outlink: 'xxxxxxx',
-  },
-  {
     icon: 'ri-github-fill',
     name: 'github',
-    outlink: 'xxxxxxx',
+    outlink: 'https://github.com/Microhawk',
   },
   {
-    icon: 'ri-rss-fill',
-    name: 'rss',
-    outlink: 'xxxxxxx',
+    icon: 'ri-mail-fill',
+    name: 'ericluo0124@gmail.com',
+    outlink: 'mailto:ericluo0124@gmail.com',
   }
 ]
 
