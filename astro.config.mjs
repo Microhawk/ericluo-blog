@@ -30,6 +30,7 @@ function customRehypeLazyLoadImage() {
 
 export default defineConfig({
   site: 'https://microhawk.github.io',
+  base: '/ericluo-blog',
   integrations: [sitemap(), tailwind(), solid(), expressiveCode({
     plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
     themes: ["github-dark", "github-light"],
