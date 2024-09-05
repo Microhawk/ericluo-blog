@@ -17,10 +17,10 @@
  */
 export const site = {
   title: "Eric Luo's Blog", // required
-  favicon: '/ericluo-blog/favicon.svg', // required
+  favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
   author: "Eric Luo", // required
-  avatar: '/ericluo-blog/avatar.png', // required
+  avatar: '/avatar.png', // required
   motto: '悟已往之不谏，知来者之可追',
   url: 'https://microhawk.github.io',
   recentBlogSize: 5,
@@ -54,17 +54,17 @@ export const categories = [
   {
     name: "Blog",
     iconClass: "ri-draft-line",
-    href: "/ericluo-blog/blog/1",
+    href: "/blog/1",
   },
   {
     name: "Search",
     iconClass: "ri-search-line",
-    href: "/ericluo-blog/search",
+    href: "/search",
   },
   {
     name: 'About',
     iconClass: 'ri-information-line',
-    href: '/ericluo-blog/about',
+    href: '/about',
   }
 ]
 
