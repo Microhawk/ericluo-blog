@@ -60,7 +60,7 @@ export function Search(props) {
           <>
             <a
               class="text-xl underline-offset-4 decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 font-bold"
-              href={'/' + post.collection + '/' + post.slug} innerHTML={post.data.title}>
+              href={import.meta.env.BASE_URL + '/' + post.collection + '/' + post.slug} innerHTML={post.data.title}>
             </a>
             <div class="flex items-center">
               {post.data.date ?
@@ -73,7 +73,7 @@ export function Search(props) {
                 <div class="flex  items-center  cursor-pointer">
                   <div class="divider-vertical"/>
                   <i class="ri-folder-2-fill mr-1"/>
-                  <a href={"/category/" + categoryName}>{categoryName}</a>
+                  <a href={import.meta.env.BASE_URL + "/category/" + categoryName}>{categoryName}</a>
                 </div>
               ))}
 
@@ -81,7 +81,7 @@ export function Search(props) {
                 <div class="flex  items-center  cursor-pointer">
                   <div class="divider-vertical"/>
                   <i class="ri-price-tag-3-fill mr-1"/>
-                  <a href={"/tags/" + tagName}>{tagName}</a>
+                  <a href={import.meta.env.BASE_URL + "/tags/" + tagName}>{tagName}</a>
                 </div>
               ))}
             </div>

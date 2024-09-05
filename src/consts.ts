@@ -57,6 +57,11 @@ export const categories = [
     href: "/blog/1",
   },
   {
+    name: "Archive",
+    iconClass: "ri-archive-line",
+    href: "/archive/1",
+  },
+  {
     name: "Search",
     iconClass: "ri-search-line",
     href: "/search",

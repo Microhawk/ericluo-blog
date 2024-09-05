@@ -20,7 +20,7 @@ function customRehypeLazyLoadImage() {
     visit(tree, function (node) {
       if (node.tagName === 'img') {
         node.properties['data-src'] = node.properties.src
-        node.properties.src = '/spinner.gif'
+        node.properties.src = '/ericluo-blog/spinner.gif'
         node.properties['data-alt'] = node.properties.alt
         node.properties.alt = 'default'
       }
@@ -29,7 +29,8 @@ function customRehypeLazyLoadImage() {
 }
 
 export default defineConfig({
-  site: 'https://microhawk.github.io/ericluo-blog',
+  site: 'https://microhawk.github.io',
+  base: '/ericluo-blog',
   integrations: [sitemap(), tailwind(), solid(), expressiveCode({
     plugins: [pluginLineNumbers(), pluginCollapsibleSections()],
     themes: ["github-dark", "github-light"],

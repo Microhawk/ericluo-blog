@@ -10,7 +10,7 @@ const {title, date, slug, category, tags, sticky = false, draft = false} = Astro
   <div class="flex items-center">
     {sticky > 0 &&
       <div class="post-sticky select-none">{t('home.sticky')}</div>}
-    <a class="flex text-xl underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 font-bold" href={slug}>
+    <a class="flex text-xl underline-offset-4 cursor-pointer decoration-skin-base decoration-wavy hover:underline hover:decoration-sky-500 font-bold" href={import.meta.env.BASE_URL+slug}>
       {title}
     </a>
   </div>
@@ -39,7 +39,7 @@ const {title, date, slug, category, tags, sticky = false, draft = false} = Astro
       category && dealLabel(category).filter(item => item !== 'uncategorized').map((categoryName) => (
         <div class="divider-vertical"/>
         <i class="ri-folder-3-line"/>
-        <a href={"/category/" + categoryName} class="text-wrap break-all hover:text-skin-active">{categoryName}</a>
+        <a href={import.meta.env.BASE_URL + "/category/" + categoryName} class="text-wrap break-all hover:text-skin-active">{categoryName}</a>
       ))
     }
 
@@ -48,7 +48,7 @@ const {title, date, slug, category, tags, sticky = false, draft = false} = Astro
       tags && dealLabel(tags).map((tagName) => (
         <div class="divider-vertical"/>
         <i class="ri-price-tag-3-line"/>
-        <a href={"/tags/" + tagName} class="text-wrap break-all hover:text-skin-active">{tagName}</a>
+        <a href={import.meta.env.BASE_URL + "/tags/" + tagName} class="text-wrap break-all hover:text-skin-active">{tagName}</a>
       ))
     }
   </div>
