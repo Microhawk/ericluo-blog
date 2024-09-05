@@ -22,7 +22,7 @@ export const site = {
   author: "Eric Luo", // required
   avatar: '/avatar.png', // required
   motto: '悟已往之不谏，知来者之可追',
-  url: 'https://microhawk.github.io',
+  url: 'https://microhawk.github.io/ericluo-blog',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
