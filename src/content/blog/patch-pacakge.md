@@ -26,7 +26,7 @@ yarn add patch-package postinstall-postinstall
 (npm安装不需要postinstall-postinstall依赖)
 ```
 
-![](https://img-blog.csdnimg.cn/ff011e61b8f645308c4385e224ca1cd0.png)
+![](https://cdn.jsdelivr.net/gh/microhawk/image-host/20240906181335.png)
 
 ## 2.修改本地项目的package.json文件，增加命令
 
@@ -34,7 +34,7 @@ yarn add patch-package postinstall-postinstall
  "postinstall": "patch-package"
 ```
 
-![](https://img-blog.csdnimg.cn/img_convert/2f9eb298f556e7fd0eb0869bf4de7b7b.png)
+![](https://cdn.jsdelivr.net/gh/microhawk/image-host/20240906181538.png)
 
 ## 3.到node_modules中找到对应的库，并修改源码
 

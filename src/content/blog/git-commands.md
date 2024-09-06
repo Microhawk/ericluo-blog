@@ -307,5 +307,4 @@ git config --global http.sslVerify "false"
 
 ## git命令集合
 
-![git命令集合](https://cdn.nlark.com/yuque/0/2024/jpeg/35263632/1725521545986-cf2c1f9a-e059-48d6-9b2f-7ad233d3e78c.jpeg)
-
+![git命令集合](https://cdn.jsdelivr.net/gh/microhawk/image-host/f0c3e2f54854475485f3fbf6d410a5b5.jpg)

@@ -45,6 +45,6 @@ export default defineConfig({
     rehypePlugins: [customRehypeLazyLoadImage],
   },
   image: {
-    domains: ["img-blog.csdnimg.cn", "cdn.nlark.com"]
+    domains: ["cdn.jsdelivr.net"]
   }
 });
